@@ -1,0 +1,1 @@
+# This is small project which contain certain details about the country
