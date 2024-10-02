@@ -10,24 +10,42 @@
     <link rel="stylesheet" href="style.css"><link href="https://fonts.googleapis.com/css?family=Nunito:300,600,800," rel="stylesheet" />
     <script src="script.js" defer></script>
 </head>
-<body>
+<body class="dark">
     <header class="header-container">
         <div class="header-content">
         <h2 class="title">Where is the world?</h2>
-        <p><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
+        <p class="theme-change"><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
         </div>
     </header>
-    <div class="countries-card">
-        <!-- <a href="#" class="country-card">
-             <img src="https://flagcdn.com/gs.svg" alt="">
-        <div class="card-content">
-            <h3 class="countryName">South Georgia</h3>
-            <p><b>Population</b>:1273464</p>
-            <p><b>Region</b>:saudi</p>
-            <p><b>Capital</b>:Riyad</p>
+    <main class="main-container">
+        <div class="search-filter-container">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="inputFiled" type="text" placeholder="Search Country">
+            </div>
+            <section>
+           <select class="filter-by-region">
+            <option value="ram" hidden>Filter by Region</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option>
+           </select>
+            </section>
         </div>
-        </a href="#"> -->
-    </div>
+        <div class="countries-card">
+            <!-- <a href="#" class="country-card">
+                 <img src="https://flagcdn.com/gs.svg" alt="">
+            <div class="card-content">
+                <h3 class="countryName">South Georgia</h3>
+                <p><b>Population</b>:1273464</p>
+                <p><b>Region</b>:saudi</p>
+                <p><b>Capital</b>:Riyad</p>
+            </div>
+            </a href="#"> -->
+        </div>
+    </main>
+  
     
 </body>
 </html>
